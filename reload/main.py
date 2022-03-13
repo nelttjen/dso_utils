@@ -52,16 +52,26 @@ def select_parallel_region():
     pyautogui.click(922 * sc_x, 484 * sc_y)
 
 
+def select_kinza():
+    pyautogui.click(1484 * sc_x, 663 * sc_y)
+
+
 def enter_brigavik():
     pyautogui.click(1280 * sc_x, 671 * sc_y)
-    time.sleep(0.03)
-    pyautogui.click(ENTER[0] * sc_x, ENTER[1] * sc_y)
-    time.sleep(0.03)
-    pyautogui.click(949 * sc_x, 571 * sc_y)
+    enter()
 
 
 def enter_stonekeep():
     pyautogui.click(1321 * sc_x, 642 * sc_y)
+    enter()
+
+
+def enter_cave():
+    pyautogui.click(1031 * sc_x, 827 * sc_y)
+    enter()
+
+
+def enter():
     time.sleep(0.03)
     pyautogui.click(ENTER[0] * sc_x, ENTER[1] * sc_y)
     time.sleep(0.03)
@@ -83,12 +93,15 @@ def on_press(key):
         if mode == 2:
             select_parallel_region()
             enter_brigavik()
+        if mode == 3:
+            select_kinza()
+            enter_cave()
 
 
 if __name__ == '__main__':
     user32 = ctypes.windll.user32
     sc_x, sc_y = user32.GetSystemMetrics(0) / 1920, user32.GetSystemMetrics(1) / 1080
-    mode = int(input('Режим (1 - стоункиип, 2 - бригавик): '))
+    mode = int(input('Режим (1 - стоункиип, 2 - бригавик, 3 - пещера сокровищ): '))
     print('press key to bind')
     with Listener(on_press=on_press) as l:
         l.join()
