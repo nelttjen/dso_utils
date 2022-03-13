@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CheatTable CheatEngineTableVersion="38">
   <Forms>
-    <Camera Class="TTrainerForm" Encoding="Ascii85">wUy6r):Zgry],uPbc2n7P.W*rxonky0_#imPMZ_eX$jk961b[=T6OIy?qTfED,m5J^ssOAxZ}JPx^YmYf{N5$[Isc2]?ZDuLjdCKjn)-$PBG.q-4N.2LwHJ3TnWj6bicUXCZVITbRW(Ru^d/mTy;8Q/:FiJ7CMQf#^;y3Q@8/;dLhkZSDdavgbyVZ,:J@.zll2U/]JWW%Q95mJQtCwNHCFBR#sL)u%W]W@fQDB,Z$6!;Uzx[c7DP;M?)cyCCo1;QZn*Te1}N86M.+H^zI/BEcx3aqd5)Ha44cAC4=iDo1[cTSe$I{7-y3%PNAR44m-hTSrDRdm!z2%(}B{@Uba??F3sqGks5$8;h+=H*:i;a%#Mhzl}c2(a-QauaspE+r(.STI@t866Z#UH,+Wa.)YS?.U;m3ERKDi;F(@}OAxRxjiOH$-oc0SpzuBZ+de!3]$Bzh$Bu:H^*YNTA[)+YprD9tisLa:8IGJ2^70EM3pm(gU1seiTQ-ZrkQVL!)k_QFG.C3PSnHCJK.JCEkje7Ad4OJ$;C*T=%jb6T5^Tu,k0t?kgFyCI,OwWD.1:mB)wP=9EORjm7p^c9(cfh)K(_CcTIH2r=AexE@xxN]+-+YoKvu3y[@L=%GI]3cotM]ws[eGW*takyZD:ai7$wd8aDxpXw#](,M@UIp+qovv?sp_RWruHej1Kpyf%TM1xR:J]n,gCT]TZ?KfXj:Mz:+gL9FiJ4z.;1]M6a*:Tux_/8lmwN0]yHyXTzF:),*$V+06_;NhjWwS5+gEEpY4eG4$glWTarxeHW2jr]hXdVM*B7ugBGu5]MnEO;7A0}NZJqe^e]Nyzkn@v@Rg@eDLRb79;.0]4E.ak,i.gss=iF50^</Camera>
+    <Camera Class="TTrainerForm" Encoding="Ascii85">wUym():Zgr-6XA)bc2oYp/W.rX{64S/KqSi,N^,k6=H7pCL_:{rd{J;jjP1[.th}MT:P0S0k6OXZ?;fK+iO:J-PpA4DqqeyzjOY[fB(%n?U}mEInRqw5aOssqfyC0BOD;4jrW:UO*G8Upg(.xSD/?ztb..vFX+v;^u_8KeHI+IhlVVo1eWE0yNDcM:%6tRXjp/9Zl})h-[1EBz#,=GmF069s[0NcBV(1a8Q3izZ$((q:##xcz.Ic-lRs.JVJCD5jWM+vg-7y-W,(Xiaqt/#MTzk#DMh_Aw]m,CH1N*tx[+Rl:/wV*ns+2EXe.zkJZzu^nlY:BBXknmZKu79qgWKMwo,Spxl*6;K@${mwgB^.X0sQt$$CYzG*whLdz7=Fvt[5Ws#PaJKOFI#({2yFRuxw(l{l7=Z:.C,mAo?e4_O_H4?Vj;JbcVb,WK:dx!DXtRw@DQIHrq/%TUC$g2iv!IP7x^u$V4O0%iFc1o@_MPcAzl7=$=q1_;ZJEM9QqfH4_cvSb%CS?2p}?DoumR0VsP^JPupE-5G%5k64bWog9g,0[;SFgaKobuls3byW;5NV*C]t[8*lnQ[g?3^{ys^^xmKfmmWr.)%-#Y/EP5]21mbeapk3$zdqea[zy5YHx{H(y*Vub*}/rq**S4pu7%1nPWKv;/:6C+l1IKD24x$3BM$$n4.RrsLILWs+ov$A[DGNSHN6Qm]Rv3h),FahN0zmRpgx6m?%zuv#0f}f[8Ff)Ucn**=7^K]X})PkrdNT2]YksD1tW]fsrh}LYtOSHD#6y#4G_{CyfbW#/jGwyVX-/M4Ud}fjWJDfyq6y#qdb219m6e:n^!hN(O@=ntsXwN;goV9%KK2sV*3rsx5j@9evuftS=1I;x95(i1@XaGtbno!ktP9bK5Xmw4a-X^-ZGM8pB)54O6.=?pSdYgmD-+Y8*kAVrm:u(%)5C@snn1[p.-?f3a(:Gj]y+gnFz@?4(HwTF..=9$vb{wf5hnZSg=.jUY{2XSR8LR21*XA5iP7^MW1j5Az17(!=u%1[1m6</Camera>
   </Forms>
   <CheatEntries>
     <CheatEntry>
       <ID>4</ID>
       <Description>"camera"</Description>
-      <LastState Value="40" RealAddress="1AC9D59EAA8"/>
       <VariableType>Float</VariableType>
       <Address>"THREADSTACK0"-00000270</Address>
       <Offsets>
@@ -22,7 +21,6 @@
     <CheatEntry>
       <ID>3</ID>
       <Description>"smoke"</Description>
-      <LastState Value="0" RealAddress="1AC9D59EAB8"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"THREADSTACK0"-00000270</Address>
@@ -32,6 +30,21 @@
         <Offset>78</Offset>
         <Offset>738</Offset>
         <Offset>110</Offset>
+        <Offset>78</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"res"</Description>
+      <VariableType>Float</VariableType>
+      <Address>"dro_client64.exe"+012686D0</Address>
+      <Offsets>
+        <Offset>1CC</Offset>
+        <Offset>38</Offset>
+        <Offset>0</Offset>
+        <Offset>20</Offset>
+        <Offset>10</Offset>
+        <Offset>B8</Offset>
         <Offset>78</Offset>
       </Offsets>
     </CheatEntry>
@@ -62,11 +75,37 @@
         <Byte>0C</Byte>
       </After>
     </CodeEntry>
+    <CodeEntry>
+      <Description>upper:movss xmm0,[rdx+2C]</Description>
+      <AddressString>dro_client64.exe+698B00</AddressString>
+      <Before>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>41</Byte>
+        <Byte>28</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>42</Byte>
+        <Byte>2C</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>5C</Byte>
+        <Byte>41</Byte>
+        <Byte>2C</Byte>
+      </After>
+    </CodeEntry>
   </CheatCodes>
   <UserdefinedSymbols/>
   <LuaScript>function Camera_LockClick(sender)
-  local camera = getAddressList()[0]
-  local smoke = getAddressList()[1]
+  local adresses = getAddressList()
+  local camera = adresses[0]
+  local smoke = adresses[1]
   if sender.Checked then
      camera.Active = true
      smoke.Active = true
@@ -100,6 +139,14 @@ function Camera_SmokeSetClick(sender)
   end
 end
 
+function Camera_FogDisableClick(sender)
+   if Camera.FogDisable.Checked then
+      getAddressList()[2].Value = -150
+      getAddressList()[2].Active = true
+   else
+      getAddressList()[2].Active = false
+   end
+end
 
 function GetTheProcessList()
    local TempTable = {}
@@ -123,9 +170,8 @@ function Camera_ScannowClick(sender)
    Camera.Execute.Enabled = true
    items = listbox_getItems(list)
    strings_clear(items)
-   Camera.Height = 275
+   Camera.Height = 330
    local TempTable = GetTheProcessList()
-   showMessage(#TempTable)
    local index = 0
    for y in pairs (TempTable) do
       index = index+1
@@ -134,10 +180,12 @@ function Camera_ScannowClick(sender)
        local text = TempTable[i][1].." - "..TempTable[i][2]
        strings_add(items, text)
    end
+   showMessage("Processes found: "..#TempTable+1)
 end
 
 function Camera_ExecuteClick(sender)
    --Camera.Lock.Checked = true
+   local id = getOpenedProcessID()
    local TempTable = GetTheProcessList()
    local index = 0
    for y in pairs (TempTable) do
@@ -147,7 +195,14 @@ function Camera_ExecuteClick(sender)
        openProcess(TempTable[i][1])
        Camera_SmokeSetClick(sender)
        Camera_CameraSetClick(sender)
+       if Camera.FogDisable.Checked then
+          getAddressList()[2].Value = -150
+          getAddressList()[2].Active = true
+       else
+          getAddressList()[2].Active = false
+       end
    end
+   openProcess(id)
 end
 
 function Camera_CEListBox1DblClick(sender)
@@ -159,11 +214,81 @@ function Camera_CEListBox1DblClick(sender)
       showMessage("Process   "..text.."   opened")
       local camera = getAddressList()[0]
       local smoke = getAddressList()[1]
-      Camera.CameraValue.Text = 25
-      Camera.SmokeValue.Text = 25
+      local fog = getAddressList()[2]
+      Camera.CameraValue.Text = 34
+      Camera.SmokeValue.Text = 0
+      Camera.FogValue = -150
       camera.Active = false
       smoke.Active = false
+      fog.Active = false
       Camera.Lock.Checked = false
+      Camera.FogDisable.Checked = false
+   end
+end
+
+function Camera_FogSetClick(sender)
+   local fog = getAddressList()[2]
+   local value = tonumber(Camera.FogValue.Text)
+   if fog.Active then
+     fog.Active = false
+     fog.Value = value
+     fog.Active = true
+   else
+     fog.Value = value
+   end
+end
+
+
+function checkKeys()
+   key_1()
+   key_2()
+end
+
+function key_1()
+   local id = getOpenedProcessID()
+   local curr = getForegroundProcess()
+   if curr ~= id then
+      openProcess(curr)
+   end
+   getAddressList()[0].Value = 34
+   Camera.CameraValue.Text = 34
+   getAddressList()[0].Active = true
+   if getAddressList()[1].Active then
+      Camera.Lock.Checked = true
+   end
+   if curr ~= id then
+      openProcess(id)
+   end
+end
+
+function key_2()
+   local id = getOpenedProcessID()
+   local curr = getForegroundProcess()
+   if curr ~= id then
+      openProcess(curr)
+   end
+   getAddressList()[1].Value = 0
+   Camera.SmokeValue.Text = 0
+   getAddressList()[1].Active = true
+   if getAddressList()[0].Active then
+      Camera.Lock.Checked = true
+   end
+   if curr ~= id then
+      openProcess(id)
+   end
+end
+
+function key_3()
+   local id = getOpenedProcessID()
+   local curr = getForegroundProcess()
+   if curr ~= id then
+      openProcess(curr)
+   end
+   Camera.FogDisable.Checked = true
+   Camera_FogDisableClick(nil)
+   if curr ~= id then
+      Camera.FogDisable.Checked = false
+      openProcess(curr)
    end
 end
 
@@ -178,7 +303,12 @@ getAutoAttachList().add("dro_client64.exe")
 gPlaySoundOnAction=false
 Camera.fixDPI()
 Camera.show()
-Camera.Heiht = 125
+Camera.Heiht = 140
+
+createHotkey(key_1, {VK_CONTROL, VK_1})
+createHotkey(key_2, {VK_CONTROL, VK_2})
+createHotkey(key_3, {VK_CONTROL, VK_3})
+
 function AboutClick()
   showMessage(gAboutText)
 end
@@ -195,12 +325,12 @@ end
 
 function Camera_FormResize(sender)
     if Camera.Execute.Enabled == false then
-       if Camera.Height &gt; 125 then
-          Camera.Height = 125
+       if Camera.Height &gt; 140 then
+          Camera.Height = 140
        end
     else
-        if Camera.Height &gt; 275 then
-          Camera.Height = 275
+        if Camera.Height &gt; 290 then
+          Camera.Height = 290
        end
     end
     if Camera.Width &gt; 225 then
