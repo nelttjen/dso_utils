@@ -7,7 +7,7 @@
     <CheatEntry>
       <ID>4</ID>
       <Description>"camera"</Description>
-      <LastState Value="34" Activated="1" RealAddress="246E552C598"/>
+      <LastState Value="34" Activated="1" RealAddress="263BB89AA78"/>
       <VariableType>Float</VariableType>
       <Address>"THREADSTACK0"-00000270</Address>
       <Offsets>
@@ -22,7 +22,7 @@
     <CheatEntry>
       <ID>3</ID>
       <Description>"smoke"</Description>
-      <LastState Value="0" Activated="1" RealAddress="246E552C5A8"/>
+      <LastState Value="25" Activated="1" RealAddress="263BB89AA88"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"THREADSTACK0"-00000270</Address>
@@ -38,7 +38,7 @@
     <CheatEntry>
       <ID>7</ID>
       <Description>"res"</Description>
-      <LastState Value="-1500" Activated="1" RealAddress="2469C2EBEEC"/>
+      <LastState Value="-1500" Activated="1" RealAddress="263E370A93C"/>
       <VariableType>Float</VariableType>
       <Address>"dro_client64.exe"+012686D0</Address>
       <Offsets>
@@ -54,7 +54,7 @@
     <CheatEntry>
       <ID>24</ID>
       <Description>"pointerscan result"</Description>
-      <LastState Value="-1500" Activated="1" RealAddress="2469C2EBD9C"/>
+      <LastState Value="-1500" Activated="1" RealAddress="263E370A7EC"/>
       <VariableType>Float</VariableType>
       <Address>"dro_client64.exe"+012686D0</Address>
       <Offsets>
@@ -234,7 +234,7 @@ function Camera_ScannowClick(sender)
        end
    end
 
-   showMessage("Processes found: "..#TempTable+1)
+   showMessage("Processes found: "..index)
 end
 
 function Camera_ExecuteClick(sender)
@@ -340,7 +340,7 @@ function key_3()
    Camera_FogDisableClick(nil)
    if curr ~= id then
       Camera.FogDisable.Checked = false
-      openProcess(curr)
+      openProcess(id)
    end
 end
 
