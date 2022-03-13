@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CheatTable CheatEngineTableVersion="38">
   <Forms>
-    <Camera Class="TTrainerForm" Encoding="Ascii85">wUym():Zgr-6XA)bc2oYp/W.rX{64S/KqSi,N^,k6=H7pCL_:{rd{J;jjP1[.th}MT:P0S0k6OXZ?;fK+iO:J-PpA4DqqeyzjOY[fB(%n?U}mEInRqw5aOssqfyC0BOD;4jrW:UO*G8Upg(.xSD/?ztb..vFX+v;^u_8KeHI+IhlVVo1eWE0yNDcM:%6tRXjp/9Zl})h-[1EBz#,=GmF069s[0NcBV(1a8Q3izZ$((q:##xcz.Ic-lRs.JVJCD5jWM+vg-7y-W,(Xiaqt/#MTzk#DMh_Aw]m,CH1N*tx[+Rl:/wV*ns+2EXe.zkJZzu^nlY:BBXknmZKu79qgWKMwo,Spxl*6;K@${mwgB^.X0sQt$$CYzG*whLdz7=Fvt[5Ws#PaJKOFI#({2yFRuxw(l{l7=Z:.C,mAo?e4_O_H4?Vj;JbcVb,WK:dx!DXtRw@DQIHrq/%TUC$g2iv!IP7x^u$V4O0%iFc1o@_MPcAzl7=$=q1_;ZJEM9QqfH4_cvSb%CS?2p}?DoumR0VsP^JPupE-5G%5k64bWog9g,0[;SFgaKobuls3byW;5NV*C]t[8*lnQ[g?3^{ys^^xmKfmmWr.)%-#Y/EP5]21mbeapk3$zdqea[zy5YHx{H(y*Vub*}/rq**S4pu7%1nPWKv;/:6C+l1IKD24x$3BM$$n4.RrsLILWs+ov$A[DGNSHN6Qm]Rv3h),FahN0zmRpgx6m?%zuv#0f}f[8Ff)Ucn**=7^K]X})PkrdNT2]YksD1tW]fsrh}LYtOSHD#6y#4G_{CyfbW#/jGwyVX-/M4Ud}fjWJDfyq6y#qdb219m6e:n^!hN(O@=ntsXwN;goV9%KK2sV*3rsx5j@9evuftS=1I;x95(i1@XaGtbno!ktP9bK5Xmw4a-X^-ZGM8pB)54O6.=?pSdYgmD-+Y8*kAVrm:u(%)5C@snn1[p.-?f3a(:Gj]y+gnFz@?4(HwTF..=9$vb{wf5hnZSg=.jUY{2XSR8LR21*XA5iP7^MW1j5Az17(!=u%1[1m6</Camera>
+    <Camera Class="TTrainerForm" Encoding="Ascii85">wUymY,b_Tz-6XA)6gC,9P%kER61QUo[Hi=5YeOrLI,c,KG-:Y5rlz()##Lgz[6CzS=Ru{XC*g_S4tsz)wv*6[7znt@mvheVod5CPrxpO-cB=k$d6ADp6t!qHDmnfLMZVES]%M3#l^OLX519TP:pG(GpitbyJvPu!!F*Yn[z+cXWDzA0x]7^t@awism_,@0.D,0(I]t284#6m7S*8)bPQw%)N?!#)FE0bT#bd3AX9xqbH@2.*#XI?4[7]=ShtL;7TU;agU{$#29TelQ2rf$WFG)5lmAOr0oY25}W9kMGLZQQRqiEh8)4)!.@W$N_kDwW_Iyv%BV!Q3McTp6J0?hY*E3a2-a2Ln8OOOSi:QNu:%+ry,u1@k-Xq0BDK50+qHfgr)l2+0q1oy*c(k0TD%iOBsN}LmzitTMb.)sOYOw.qbov4Q+4HzCeW,iR=rJ3Ap.+gb!hY619BH{VXVj8gcZ5xGs(H*zFWl5kcUxWC.aO#uGP6(df^kTC%4+-i7,(Ey2hL$YZMNAgFmKOX;6bx0tUM9cpHoYqf%0,}aly,Gf?p@Xk1prJA+7m!InCiN!1^S1T[XXF2.?Zr):46Jd:,@%M%aTAWF),_AHVw8rqC/4=Fuc9vVbJ6-6l!.,y)tR3NcuN7mHwfUKFxB8?.U%zj@zwcFl@9cqfLXM6#iQ#^F0zzifSjLDkqDpLZ%ps2(iXW19L%PCSlGY7J1)pf;zK}k#lBa#/Z??p4RsY,R33sQ+L2cb2U=:mSWl_K{8S^Mer@oFp{lhXwy:vrp$7Qm[-2Wq%k.VTuVE/TRlTY#L4p$sFUXpnA_g442^${V0XfeE_D0O*K9Xg;8Bi@G{V@oF$xZt,QOfv,M+ZLv8TPr]ch:HP6%v/K0g_I:DGS,xHBnXZX0Hc[H*zFe-*-)V_d4_VM@C9p0B:_Fb=BZjiba%Ol=E_U6{Tb^!M-3L3Z5tFLw:V#tvMUP+1h#9XM7^;lu^A!%Nq:)f+sXEgq:9f#YOwW{DY%Me#BB0kyu$f6W@3IB$UZd{i8g0Kh+</Camera>
   </Forms>
   <CheatEntries>
     <CheatEntry>
       <ID>4</ID>
       <Description>"camera"</Description>
+      <LastState Value="34" Activated="1" RealAddress="246E552C598"/>
       <VariableType>Float</VariableType>
       <Address>"THREADSTACK0"-00000270</Address>
       <Offsets>
@@ -21,6 +22,7 @@
     <CheatEntry>
       <ID>3</ID>
       <Description>"smoke"</Description>
+      <LastState Value="0" Activated="1" RealAddress="246E552C5A8"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"THREADSTACK0"-00000270</Address>
@@ -36,10 +38,27 @@
     <CheatEntry>
       <ID>7</ID>
       <Description>"res"</Description>
+      <LastState Value="-1500" Activated="1" RealAddress="2469C2EBEEC"/>
       <VariableType>Float</VariableType>
       <Address>"dro_client64.exe"+012686D0</Address>
       <Offsets>
         <Offset>1CC</Offset>
+        <Offset>38</Offset>
+        <Offset>0</Offset>
+        <Offset>20</Offset>
+        <Offset>10</Offset>
+        <Offset>B8</Offset>
+        <Offset>78</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"pointerscan result"</Description>
+      <LastState Value="-1500" Activated="1" RealAddress="2469C2EBD9C"/>
+      <VariableType>Float</VariableType>
+      <Address>"dro_client64.exe"+012686D0</Address>
+      <Offsets>
+        <Offset>7C</Offset>
         <Offset>38</Offset>
         <Offset>0</Offset>
         <Offset>20</Offset>
@@ -100,6 +119,31 @@
         <Byte>2C</Byte>
       </After>
     </CodeEntry>
+    <CodeEntry>
+      <Description>fog2:movss xmm0,[rcx+2C]</Description>
+      <AddressString>dro_client64.exe+699228</AddressString>
+      <Before>
+        <Byte>41</Byte>
+        <Byte>24</Byte>
+        <Byte>C3</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>41</Byte>
+        <Byte>2C</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
   </CheatCodes>
   <UserdefinedSymbols/>
   <LuaScript>function Camera_LockClick(sender)
@@ -141,10 +185,15 @@ end
 
 function Camera_FogDisableClick(sender)
    if Camera.FogDisable.Checked then
-      getAddressList()[2].Value = -150
+      getAddressList()[2].Value = -1500
+      getAddressList()[3].Active = true
+      getAddressList()[3].Value = -1500
       getAddressList()[2].Active = true
+
    else
       getAddressList()[2].Active = false
+      getAddressList()[3].Active = false
+
    end
 end
 
@@ -166,6 +215,7 @@ function GetTheProcessList()
 end
 
 function Camera_ScannowClick(sender)
+   local id = getOpenedProcessID()
    local list = Camera.CEListBox1
    Camera.Execute.Enabled = true
    items = listbox_getItems(list)
@@ -179,7 +229,11 @@ function Camera_ScannowClick(sender)
    for i=0, index-1 do
        local text = TempTable[i][1].." - "..TempTable[i][2]
        strings_add(items, text)
+       if id == TempTable[i][1] then
+          Camera.CEListBox1.ItemIndex = i
+       end
    end
+
    showMessage("Processes found: "..#TempTable+1)
 end
 
@@ -207,7 +261,7 @@ end
 
 function Camera_CEListBox1DblClick(sender)
    local sel = Camera.CEListBox1.ItemIndex
-   if sel ~= nil then
+   if sel ~= nil and sel ~= -1 then
       local TempTable = GetTheProcessList()
       openProcess(TempTable[sel][1])
       local text = TempTable[sel][1].." - "..TempTable[sel][2]
@@ -250,8 +304,7 @@ function key_1()
    if curr ~= id then
       openProcess(curr)
    end
-   getAddressList()[0].Value = 34
-   Camera.CameraValue.Text = 34
+   getAddressList()[0].Value = tonumber(Camera.CameraValue.Text)
    getAddressList()[0].Active = true
    if getAddressList()[1].Active then
       Camera.Lock.Checked = true
@@ -267,8 +320,7 @@ function key_2()
    if curr ~= id then
       openProcess(curr)
    end
-   getAddressList()[1].Value = 0
-   Camera.SmokeValue.Text = 0
+   getAddressList()[1].Value = tonumber(Camera.SmokeValue.Text)
    getAddressList()[1].Active = true
    if getAddressList()[0].Active then
       Camera.Lock.Checked = true
