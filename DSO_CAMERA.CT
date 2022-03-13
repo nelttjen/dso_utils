@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="38">
+  <Forms>
+    <Camera Class="TTrainerForm" Encoding="Ascii85">wUy6r):Zgry],uPbc2n7P.W*rxonky0_#imPMZ_eX$jk961b[=T6OIy?qTfED,m5J^ssOAxZ}JPx^YmYf{N5$[Isc2]?ZDuLjdCKjn)-$PBG.q-4N.2LwHJ3TnWj6bicUXCZVITbRW(Ru^d/mTy;8Q/:FiJ7CMQf#^;y3Q@8/;dLhkZSDdavgbyVZ,:J@.zll2U/]JWW%Q95mJQtCwNHCFBR#sL)u%W]W@fQDB,Z$6!;Uzx[c7DP;M?)cyCCo1;QZn*Te1}N86M.+H^zI/BEcx3aqd5)Ha44cAC4=iDo1[cTSe$I{7-y3%PNAR44m-hTSrDRdm!z2%(}B{@Uba??F3sqGks5$8;h+=H*:i;a%#Mhzl}c2(a-QauaspE+r(.STI@t866Z#UH,+Wa.)YS?.U;m3ERKDi;F(@}OAxRxjiOH$-oc0SpzuBZ+de!3]$Bzh$Bu:H^*YNTA[)+YprD9tisLa:8IGJ2^70EM3pm(gU1seiTQ-ZrkQVL!)k_QFG.C3PSnHCJK.JCEkje7Ad4OJ$;C*T=%jb6T5^Tu,k0t?kgFyCI,OwWD.1:mB)wP=9EORjm7p^c9(cfh)K(_CcTIH2r=AexE@xxN]+-+YoKvu3y[@L=%GI]3cotM]ws[eGW*takyZD:ai7$wd8aDxpXw#](,M@UIp+qovv?sp_RWruHej1Kpyf%TM1xR:J]n,gCT]TZ?KfXj:Mz:+gL9FiJ4z.;1]M6a*:Tux_/8lmwN0]yHyXTzF:),*$V+06_;NhjWwS5+gEEpY4eG4$glWTarxeHW2jr]hXdVM*B7ugBGu5]MnEO;7A0}NZJqe^e]Nyzkn@v@Rg@eDLRb79;.0]4E.ak,i.gss=iF50^</Camera>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"camera"</Description>
+      <LastState Value="40" RealAddress="1AC9D59EAA8"/>
+      <VariableType>Float</VariableType>
+      <Address>"THREADSTACK0"-00000270</Address>
+      <Offsets>
+        <Offset>78</Offset>
+        <Offset>60</Offset>
+        <Offset>78</Offset>
+        <Offset>738</Offset>
+        <Offset>110</Offset>
+        <Offset>78</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"smoke"</Description>
+      <LastState Value="0" RealAddress="1AC9D59EAB8"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"THREADSTACK0"-00000270</Address>
+      <Offsets>
+        <Offset>88</Offset>
+        <Offset>60</Offset>
+        <Offset>78</Offset>
+        <Offset>738</Offset>
+        <Offset>110</Offset>
+        <Offset>78</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Camera:subss xmm0,[rcx+10]</Description>
+      <AddressString>dro_client64.exe+13BA79</AddressString>
+      <Before>
+        <Byte>59</Byte>
+        <Byte>14</Byte>
+        <Byte>0F</Byte>
+        <Byte>28</Byte>
+        <Byte>C3</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>5C</Byte>
+        <Byte>41</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>59</Byte>
+        <Byte>41</Byte>
+        <Byte>0C</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+  <LuaScript>function Camera_LockClick(sender)
+  local camera = getAddressList()[0]
+  local smoke = getAddressList()[1]
+  if sender.Checked then
+     camera.Active = true
+     smoke.Active = true
+  else
+     camera.Active = false
+     smoke.Active = false
+  end
+end
+
+function Camera_CameraSetClick(sender)
+  local camera = getAddressList()[0]
+  local value = tonumber(Camera.CameraValue.Text)
+  if camera.Active then
+     camera.Active = false
+     camera.Value = value
+     camera.Active = true
+  else
+     camera.Value = value
+  end
+end
+
+function Camera_SmokeSetClick(sender)
+  local smoke = getAddressList()[1]
+  local value = tonumber(Camera.SmokeValue.Text)
+  if smoke.Active then
+     smoke.Active = false
+     smoke.Value = value
+     smoke.Active = true
+  else
+     smoke.Value = value
+  end
+end
+
+
+function GetTheProcessList()
+   local TempTable = {}
+   local SL=createStringlist()
+   local indx = 0
+   getProcesslist(SL)
+   for i=0,strings_getCount(SL)-1 do
+     local entry = strings_getString(SL,i)
+     local processname = entry:sub(10,255)
+     local PID = tonumber('0x'..entry:sub(1,8))
+     if processname == "dro_client64.exe" then
+        TempTable[indx] = {PID, processname}
+        indx = indx + 1
+        end
+     end
+  return TempTable
+end
+
+function Camera_ScannowClick(sender)
+   local list = Camera.CEListBox1
+   Camera.Execute.Enabled = true
+   items = listbox_getItems(list)
+   strings_clear(items)
+   Camera.Height = 275
+   local TempTable = GetTheProcessList()
+   showMessage(#TempTable)
+   local index = 0
+   for y in pairs (TempTable) do
+      index = index+1
+   end
+   for i=0, index-1 do
+       local text = TempTable[i][1].." - "..TempTable[i][2]
+       strings_add(items, text)
+   end
+end
+
+function Camera_ExecuteClick(sender)
+   --Camera.Lock.Checked = true
+   local TempTable = GetTheProcessList()
+   local index = 0
+   for y in pairs (TempTable) do
+      index = index+1
+   end
+   for i=0, index-1 do
+       openProcess(TempTable[i][1])
+       Camera_SmokeSetClick(sender)
+       Camera_CameraSetClick(sender)
+   end
+end
+
+function Camera_CEListBox1DblClick(sender)
+   local sel = Camera.CEListBox1.ItemIndex
+   if sel ~= nil then
+      local TempTable = GetTheProcessList()
+      openProcess(TempTable[sel][1])
+      local text = TempTable[sel][1].." - "..TempTable[sel][2]
+      showMessage("Process   "..text.."   opened")
+      local camera = getAddressList()[0]
+      local smoke = getAddressList()[1]
+      Camera.CameraValue.Text = 25
+      Camera.SmokeValue.Text = 25
+      camera.Active = false
+      smoke.Active = false
+      Camera.Lock.Checked = false
+   end
+end
+
+
+RequiredCEVersion=7,3
+if (getCEVersion==nil) or (getCEVersion()&lt;RequiredCEVersion) then
+  messageDialog('Please install Cheat Engine '..RequiredCEVersion, mtError, mbOK)
+  closeCE()
+end
+
+getAutoAttachList().add("dro_client64.exe")
+gPlaySoundOnAction=false
+Camera.fixDPI()
+Camera.show()
+Camera.Heiht = 125
+function AboutClick()
+  showMessage(gAboutText)
+end
+gAboutText=[[This trainer was made by Cheat Engine
+www.cheatengine.org]]
+
+function CloseClick()
+  --called by the close button onClick event, and when closing the form
+  closeCE()
+  return caFree --onClick doesn't care, but onClose would like a result
+end
+
+--TRAINERGENERATORSTOP--
+
+function Camera_FormResize(sender)
+    if Camera.Execute.Enabled == false then
+       if Camera.Height &gt; 125 then
+          Camera.Height = 125
+       end
+    else
+        if Camera.Height &gt; 275 then
+          Camera.Height = 275
+       end
+    end
+    if Camera.Width &gt; 225 then
+       Camera.Width = 225
+    end
+end
+
+</LuaScript>
+</CheatTable>
