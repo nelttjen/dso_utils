@@ -15,6 +15,11 @@ TEST = 1332, (603, 603 + 81, 603 + 161, 603 + 242)
 SLOTSIZE = 76
 
 
+def open_smelt():
+    pyautogui.click(826, 25)
+    time.sleep(0.1)
+    pyautogui.rightClick(1447, 647)
+
 def script(key):
     global BIND
     if key == Key.end:
@@ -64,7 +69,11 @@ def main_script():
         time.sleep(0.05)
         pyautogui.rightClick(607 + (100 * (DOG[1] - 1)), 639 + (100 * (DOG[0] - 1)))
         time.sleep(0.05)
-    open_sell()
+    smelt = 0
+    if not args.smelt:
+        open_sell()
+    else:
+        open_smelt()
     for bag in BAGS:
         pyautogui.click(BAG1[0] + 50 * (bag - 1), BAG1[1])
         time.sleep(0.05)
@@ -81,8 +90,20 @@ def main_script():
                 if any([check_pixels(m, pixels, 0, 0) for m in (blue, purple, gold, unique, set_item, color_item)]):
                     slots.append((TEST[0] + SLOTSIZE * i + get_offset(i) + 37, TEST[1][j] + 16))
         for i in slots:
-            pyautogui.rightClick(i[0], i[1], _pause=False)
-            time.sleep(0.075)
+            if not args.smelt:
+                pyautogui.rightClick(i[0], i[1], _pause=False)
+                time.sleep(0.075)
+            else:
+                if smelt == 9:
+                    smelt = 0
+                    pyautogui.click(501, 782)
+                    time.sleep(0.075)
+                pyautogui.rightClick(i[0], i[1], _pause=False)
+                time.sleep(0.075)
+                smelt += 1
+    if args.smelt:
+        pyautogui.click(501, 782)
+        time.sleep(0.075)
     if not args.use_dog:
         pyautogui.click(1899, 92) if args.inv_close else None
         time.sleep(0.05)
@@ -132,6 +153,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--inv-close', action='store_false', default=True)
     parser.add_argument('--use-dog', action='store_true', default=False)
+    parser.add_argument('--smelt', action='store_true', default=False)
     args = parser.parse_args()
     # {(112, 87, 60), (114, 92, 69)}
     # {(112, 87, 60)}
