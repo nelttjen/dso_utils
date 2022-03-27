@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CheatTable CheatEngineTableVersion="38">
   <Forms>
-    <Camera Class="TTrainerForm" Encoding="Ascii85">wUymY,b_Tz-6XA)6gC,9P%kER61QUo[Hi=5YeOrLI,c,KG-:Y5rlz()##Lgz[6CzS=Ru{XC*g_S4tsz)wv*6[7znt@mvheVod5CPrxpO-cB=k$d6ADp6t!qHDmnfLMZVES]%M3#l^OLX519TP:pG(GpitbyJvPu!!F*Yn[z+cXWDzA0x]7^t@awism_,@0.D,0(I]t284#6m7S*8)bPQw%)N?!#)FE0bT#bd3AX9xqbH@2.*#XI?4[7]=ShtL;7TU;agU{$#29TelQ2rf$WFG)5lmAOr0oY25}W9kMGLZQQRqiEh8)4)!.@W$N_kDwW_Iyv%BV!Q3McTp6J0?hY*E3a2-a2Ln8OOOSi:QNu:%+ry,u1@k-Xq0BDK50+qHfgr)l2+0q1oy*c(k0TD%iOBsN}LmzitTMb.)sOYOw.qbov4Q+4HzCeW,iR=rJ3Ap.+gb!hY619BH{VXVj8gcZ5xGs(H*zFWl5kcUxWC.aO#uGP6(df^kTC%4+-i7,(Ey2hL$YZMNAgFmKOX;6bx0tUM9cpHoYqf%0,}aly,Gf?p@Xk1prJA+7m!InCiN!1^S1T[XXF2.?Zr):46Jd:,@%M%aTAWF),_AHVw8rqC/4=Fuc9vVbJ6-6l!.,y)tR3NcuN7mHwfUKFxB8?.U%zj@zwcFl@9cqfLXM6#iQ#^F0zzifSjLDkqDpLZ%ps2(iXW19L%PCSlGY7J1)pf;zK}k#lBa#/Z??p4RsY,R33sQ+L2cb2U=:mSWl_K{8S^Mer@oFp{lhXwy:vrp$7Qm[-2Wq%k.VTuVE/TRlTY#L4p$sFUXpnA_g442^${V0XfeE_D0O*K9Xg;8Bi@G{V@oF$xZt,QOfv,M+ZLv8TPr]ch:HP6%v/K0g_I:DGS,xHBnXZX0Hc[H*zFe-*-)V_d4_VM@C9p0B:_Fb=BZjiba%Ol=E_U6{Tb^!M-3L3Z5tFLw:V#tvMUP+1h#9XM7^;lu^A!%Nq:)f+sXEgq:9f#YOwW{DY%Me#BB0kyu$f6W@3IB$UZd{i8g0Kh+</Camera>
+    <Camera Class="TTrainerForm" Encoding="Ascii85">wUym():Zgr-6V}Zbc2oYp/W.rX{64S/KqSi,N^,k6=H7p5E2q^Q=HHc##Q2d?dijBu6Z5A1MmvG0{p@;J83)+vT55?zMOM?:lqZV^%Hf==;4Ioz8_A7!f{)vL)?e:93!KJ519T^Gq-Wr;offe)0w{6L816A=6SW88!XlW79L?jMl7ZT8Z8/Opo;N/q;%{=ymrN^y.+Qch$EH/Daq$7M$x5(#;VREDsY-S)3+ILFd+.xA.Tr^PX4U?f$hj8G^Mjj7al1XSnX(JC+daymnHYdv/CUg,NDXD)!g6I;IE@zk.]-Ac,u/A/DJMy$*Jv6XeF#hj=ro2wA_J^juTP9##)jl]C1k3he[BW+apyd8.x$rN.1)tB8OOXNwZaxv/GRAG*J}btJpOX[M#!r2]z=XZdGx*T*sfX(Mu1iU,Fu]?:;Q9cX6x%!@bDg*Ha]5;CJW,F_(A-.#eLg9z!wHfX#1PIO:f?u$)PR1LgVZ1O/bsPaZoZ7?7x3osup9HZQn-$QX?mS,a,jEO.X.[;m_Ws*GGoe%*+M7Zj9;2:6KF?-+W0=CJ^uSRAZ^I,$4Mx}]?bWL(oe+OKDe(bbz3hKlIc^^c(qKrFE*aX;x_jyI$OeEu-Jyy0Qc/S-PfH;JHL3OrBx7gv?3u97};GDmqGfD+?Y]#2cX;4]8LDg5VL[!U9L6xCi%RZ16EgiOgL:#}@,]u7_%W5!Hw%$}^D3e6p)iPEoOB+(UTFF.X5kELWzMo//6L:n8o35/04CAzYbX)qGGX-p9SCv8laFs[*B-;sh@BjRxR2Grs53ry}e9fpT$9dO#wR*/K8a@?O(*a:t3z=@DJ.^+qXOl^QnQ+F[U;SWWN/b5eJS_bEDBE%1XuJup-D%[craBL1%llI2epnoq,d(A(^y{@;,U[4%bHenCOwc3NpOU%qc_52EBhu(4*.ZA/2[vU,pJ!1!MN}nk0@bQ..sLdS8:HaC]TxtJJniCJy,X_C)aAsT72SxFA;.r0jh5wp2.QqJ*;hqata^vH.0R</Camera>
   </Forms>
   <CheatEntries>
     <CheatEntry>
       <ID>4</ID>
       <Description>"camera"</Description>
-      <LastState Value="34" Activated="1" RealAddress="263BB89AA78"/>
+      <LastState Value="25" RealAddress="1F670381E48"/>
       <VariableType>Float</VariableType>
       <Address>"THREADSTACK0"-00000270</Address>
       <Offsets>
@@ -22,7 +22,7 @@
     <CheatEntry>
       <ID>3</ID>
       <Description>"smoke"</Description>
-      <LastState Value="25" Activated="1" RealAddress="263BB89AA88"/>
+      <LastState Value="25" RealAddress="1F670381E58"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"THREADSTACK0"-00000270</Address>
@@ -37,8 +37,8 @@
     </CheatEntry>
     <CheatEntry>
       <ID>7</ID>
-      <Description>"res"</Description>
-      <LastState Value="-1500" Activated="1" RealAddress="263E370A93C"/>
+      <Description>"fog"</Description>
+      <LastState Value="-12" RealAddress="1F61D91410C"/>
       <VariableType>Float</VariableType>
       <Address>"dro_client64.exe"+012686D0</Address>
       <Offsets>
@@ -53,8 +53,8 @@
     </CheatEntry>
     <CheatEntry>
       <ID>24</ID>
-      <Description>"pointerscan result"</Description>
-      <LastState Value="-1500" Activated="1" RealAddress="263E370A7EC"/>
+      <Description>"actual fog"</Description>
+      <LastState Value="-12" RealAddress="1F61D913FBC"/>
       <VariableType>Float</VariableType>
       <Address>"dro_client64.exe"+012686D0</Address>
       <Offsets>

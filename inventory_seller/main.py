@@ -18,6 +18,8 @@ SLOTSIZE = 76
 def open_smelt():
     pyautogui.click(826, 25)
     time.sleep(0.1)
+    pyautogui.click(BAG1[0], BAG1[1])
+    time.sleep(0.1)
     pyautogui.rightClick(1447, 647)
 
 def script(key):
